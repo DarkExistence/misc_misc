@@ -1,0 +1,76 @@
+[CENTER]
+[img]https://s27.postimg.org/6nksa5wlf/Liquid_death.png[/img]
+[CODE]/*
+* Your warranty is now void.
+*
+* I am not responsible for bricked devices, dead SD cards,
+* thermonuclear war, or you getting fired because the alarm app failed. Please
+* do some research if you have any concerns about features included in this ROM
+* before flashing it! YOU are choosing to make these modifications, and if
+* you point the finger at me for messing up your device, I will laugh at you. Hard. A lot.
+*/[/CODE]
+
+[B][SIZE="4"]About LD[/SIZE][/B]
+Years after the death of LiquidSmooth, Sean Hoyt, (the LiquidSmooth lead dev) has returned to the ROM game, along with the Exynos5420 team, to bring greatness to our beloved Exynos5420 tablets (and note 3), out of the ashes of the fallen LiquidSmooth ROM. LiquidDeathOS is super optimized for the Exynos5420. 
+In fact right now it is so optimized that it won't even boot on non-exynos devices :) 
+LDO is AOSP based , and is only for Exynos devices 
+(it's even more optimized than cm).
+
+[B][SIZE="4"]What works:[/SIZE][/B]
+Display/Brightness
+Touchscreen
+Audio
+Wifi
+S-Pen
+Buttons/Lights
+SDCard
+USB Storage
+GPS
+Bluetooth
+IR Blaster
+Camera
+OMS/substratum theme engine
+
+[B][SIZE="4"]What doesn't work:[/SIZE][/B]
+The default wallpaper is from DU, it will be changed in time
+
+Not in the list? Report below
+
+[B][SIZE="4"]How to install[/SIZE][/B]
+1. Download ROM and Gapps and transfer to device
+2. Boot into recovery (TWRP recommended)
+3. Wipe the system, cache, data, and dalvik cache
+4. Install ROM
+5. Install Gapps
+6. Install SuperSU
+7. Reboot to system
+
+[B][SIZE="4"]Downloads[/SIZE][/B]
+[URL="https://androidfilehost.com/?w=files&flid=140192"]All Builds[/URL]
+[COLOR="Red"]Note: n1awifi is the same device as lt03wifi - the SM-P600[/COLOR]
+
+[B][SIZE="4"]Contributors[/SIZE][/B]
+ [MENTION=4222965]deadman96385[/MENTION] [MENTION=4817899]thompatry[/MENTION] [MENTION=4810273]ZakooZ[/MENTION] [MENTION=6176472]Orion116[/MENTION] [MENTION=6227169]mosimchah[/MENTION] [MENTION=4144316]joshndroid[/MENTION] [MENTION=5617466]Andmoreagain[/MENTION] [MENTION=3788878]thermskin[/MENTION] [MENTION=5795145]javelinanddart[/MENTION][MENTION=4925642]tincho5588[/MENTION] [MENTION=3594812]ShevT[/MENTION]
+
+[B][SIZE="4"]Device Maintainers[/SIZE][/B]
+ [MENTION=6227169]mosimchah[/MENTION] [MENTION=4810273]ZakooZ[/MENTION] [MENTION=6176472]Orion116[/MENTION]
+
+[B][SIZE="4"]Source code[/SIZE][/B]
+[URL="https://github.com/exynos5420"]Device Repos[/URL]
+[URL="https://github.com/LiquidDeathOS"]Rom Source[/URL]
+
+[B][U][SIZE="4"][NOPARSE]XDA:DevDB Information[/NOPARSE][/SIZE][/U][/B]
+[SIZE=3][B]SM-P600 LiquidDeathOS Official, ROM for the Samsung Galaxy Note 10.1 (2014 Edition)[/B][/SIZE]
+
+[B]ROM OS Version:[/B] 7.x Nougat
+[B]ROM Kernel:[/B] Linux 3.4.x
+[B]ROM Firmware Required:[/B] KK bootloader
+[B]Based On:[/B] AOSP 
+
+[B][U]Version Information[/U][/B]
+[B]Status:[/B] Beta
+
+[B]Created[/B] 12-30-2016
+[B]Last Updated[/B] 1-30-2017
+
+[/CENTER]
