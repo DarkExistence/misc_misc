@@ -14,7 +14,13 @@
 Years after the death of LiquidSmooth, Sean Hoyt, (the LiquidSmooth lead dev) has returned to the ROM game, along with the Exynos5420 team, to bring greatness to our beloved Exynos5420 tablets (and note 3), out of the ashes of the fallen LiquidSmooth ROM. LiquidDeathOS is super optimized for the Exynos5420. 
 In fact right now it is so optimized that it won't even boot on non-exynos devices :) 
 LDO is AOSP based , and is only for Exynos devices 
-(it's even more optimized than cm).
+(it's even more optimized than lineage).
+
+B]Important info[/B]
+I don't support Xposed and any logcat which includes a Xposed module will be [COLOR="Red"]ignored[/COLOR]. You're kindly invited to [COLOR="red"]not report bugs[/COLOR] if you:
+[B]Flashed a custom kernel[/B]
+[B]Installed or did mods from untrusted sources[/B]
+[B]Modified system files[/B]
 
 [B][SIZE="4"]What works:[/SIZE][/B]
 Display/Brightness
@@ -50,8 +56,7 @@ Not in the list? Report below
 [COLOR="Red"]Note: n1awifi is the same device as lt03wifi - the SM-P600[/COLOR]
 
 [B][SIZE="4"]Contributors[/SIZE][/B]
- [MENTION=4222965]deadman96385[/MENTION] [MENTION=4817899]thompatry[/MENTION] [MENTION=4810273]ZakooZ[/MENTION] [MENTION=6176472]Orion116[/MENTION] [MENTION=6227169]mosimchah[/MENTION] [MENTION=4144316]joshndroid[/MENTION] [MENTION=5617466]Andmoreagain[/MENTION] [MENTION=3788878]thermskin[/MENTION] [MENTION=5795145]javelinanddart[/MENTION][MENTION=4925642]tincho5588[/MENTION] [MENTION=3594812]ShevT[/MENTION]
-
+ [MENTION=4222965]deadman96385[/MENTION] [MENTION=4817899]thompatry[/MENTION] [MENTION=4810273]ZakooZ[/MENTION] [MENTION=6176472]Orion116[/MENTION] [MENTION=6227169]mosimchah[/MENTION] [MENTION=4144316]joshndroid[/MENTION] [MENTION=5617466]Andmoreagain[/MENTION] [MENTION=3788878]thermskin[/MENTION] [MENTION=5795145]javelinanddart[/MENTION][MENTION=4925642]tincho5588[/MENTION] [MENTION=3594812]ShevT[/MENTION][MENTION=6663552]DarkExistence[/MENTION]
 [B][SIZE="4"]Device Maintainers[/SIZE][/B]
  [MENTION=6227169]mosimchah[/MENTION] [MENTION=4810273]ZakooZ[/MENTION] [MENTION=6176472]Orion116[/MENTION]
 
@@ -71,6 +76,6 @@ Not in the list? Report below
 [B]Status:[/B] Beta
 
 [B]Created[/B] 12-30-2016
-[B]Last Updated[/B] 1-30-2017
+[B]Last Updated[/B] 3-2-2017
 
 [/CENTER]
