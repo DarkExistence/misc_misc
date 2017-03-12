@@ -18,7 +18,7 @@
 WORKING_DIR=~/LiquidDeathOS
 
 # The tag you want to merge in goes here
-BRANCH=android-7.1.1_r13
+BRANCH=android-7.1.1_r25
 
 # Google source url
 REPO=https://android.googlesource.com/platform/
@@ -30,7 +30,7 @@ upstream=()
 failed=()
 
 # This is the array of repos to blacklist and not merge
-blacklist=('manifest' 'prebuilt' 'packages/apps/DeathlyTools' 'prebuilts/build-tools' 'prebuilts/misc' 'art' 'build/soong' 'build/kati' 'build/blueprint')
+blacklist=('manifest' 'prebuilt' 'packages/apps/DeathlyTools' 'misc' 'vendor/ld')
 
 # Colors
 COLOR_RED='\033[0;31m'
@@ -63,8 +63,8 @@ function get_repos() {
   for i in ${repos[@]}
   do
     if grep -q "$i" /tmp/rebase.tmp; then # If Google has it and
-      if grep -q "$i" $WORKING_DIR/manifest/default.xml; then # If we have it in our manifest and
-        if grep "$i" $WORKING_DIR/manifest/default.xml | grep -q "remote="; then # If we track our own copy of it
+      if grep -q "$i" $WORKING_DIR/manifest/ld.xml; then # If we have it in our manifest and
+        if grep "$i" $WORKING_DIR/manifest/ld.xml | grep -q "remote="; then # If we track our own copy of it
           if ! is_in_blacklist $i; then # If it's not in our blacklist
             upstream+=("$i") # Then we need to update it
           else
