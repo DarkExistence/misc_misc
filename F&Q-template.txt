@@ -1,0 +1,27 @@
+[B][U][COLOR="Blue"]FAQ:[/COLOR][/U][/B]]
+
+[COLOR="Red"]Q [I] Does this ROM support custom kernels?[/I][/COLOR]
+[COLOR="Blue"]A No.[/COLOR]
+
+[COLOR="Red"]Q [I]Why doesn’t this ROM support Xposed?[/I][/COLOR]
+[COLOR="Blue"]A Xposed is a hack that is geared towards AOSP, custom ROM's modify the framework a lot, so Xposed can cause a ton of issues on custom ROM's. Now it might work for you, however it is not to be discussed in this thread, and you should refrain from posting bug reports while using it as Xposed can cause a lot of bugs. [/COLOR]
+[COLOR="Red"]
+Q [I]Alright, but I still want to flash Xposed, so which version do I need to install?[/I][/COLOR]
+[COLOR="Blue"]A Xposed is not yet available for nougat, however when it is ready you will need to use the version arm sdk 25.[/COLOR]
+
+[COLOR="Red"]Q [I]Can I have an ETA for the next build?[/I][/COLOR]
+[COLOR="Blue"]A Yes, the next build will be Thursday evening (eastern time), unless if something goes wrong of course...
+[/COLOR]
+[COLOR="Red"]Q [I]Do I need to provide a log if I'm reporting a bug?[/I][/COLOR]
+[COLOR="Blue"]A If you want it to be fixed faster (or at all) then yes, you should definitely provide a log.[/COLOR]
+
+[COLOR="Red"]Q[I] I installed a bad theme and now I'm getting a bootloop, how do I fix it?[/I][/COLOR]
+[COLOR="Blue"]A  In TWRP, flash the substratum rescue zip in the substratum folder in the internal storage.[/COLOR]
+
+[COLOR="Red"]Q [I]Can the builds be dirty flashed over each other?[/I][/COLOR]
+[COLOR="Blue"]A Yes, however make a nandroid first as there is a chance of getting a bootloop or encountering bugs, also bugs may only be reported on a clean flash.[/COLOR]
+
+[COLOR="Red"]Q[I] How do I get a logcat, and what type should I get, and more questions that can conveniently  be answered by my pre-determined answer?[/I][/COLOR]
+[COLOR="Blue"]A Read [URL="https://docs.google.com/document/d/1Hj289Mv_13uHyW7ZSp0nId37Up3NBBrrScKRMqUaCII/edit"]this[/URL] thoroughly. Also, here's a good app for getting logs: [url]https://play.google.com/store/apps/details?id=com.tortel.syslog[/url] [/COLOR]
+
+This post was written by [MENTION=6227169]mosimchah[/MENTION] 

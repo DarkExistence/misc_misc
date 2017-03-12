@@ -69,13 +69,13 @@ Not in the list? Report below
 
 [B]ROM OS Version:[/B] 7.x Nougat
 [B]ROM Kernel:[/B] Linux 3.4.x
-[B]ROM Firmware Required:[/B] KK bootloader
+[B]ROM Firmware Required:[/B] LP bootloader
 [B]Based On:[/B] AOSP 
 
 [B][U]Version Information[/U][/B]
 [B]Status:[/B] Beta
 
 [B]Created[/B] 12-30-2016
-[B]Last Updated[/B] 3-2-2017
+[B]Last Updated[/B] 3-9-2017
 
 [/CENTER]
