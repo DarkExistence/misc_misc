@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <n1awifi>
+            <Filename>LD_n1awifi_7.1.1_20170310-0331.v1.0-DROWNING-FOREVER.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download LiquidDeathOS builds">http://download.exynos5420.com/LiquidDeathOS/n1awifi</RomUrl>
+            <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="Download latest OpenGapps">http://opengapps.org/</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit LiquidDeathOS n1awifi thread">https://forum.xda-developers.com/galaxy-note-10-2014/orig-development/rom-liquiddeathos-t3528969</XDAUrl>
+	</n1awifi>
+    </Stable>
+</SlimOTA>

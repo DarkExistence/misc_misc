@@ -1,0 +1,10 @@
+#Common OTA url for all devices
+ota_url=https://raw.githubusercontent.com/LiquidDeathOS/misc_misc/n7.1/OTA/LD_OTA.xml
+release_type=Stable
+device_name=ro.ld.device
+
+#example ro.ld.version=LD_n1awifi_7.1.1_20170310-0331.v1.0-DROWNING-FOREVER
+version_source=ro.ld.version
+version_delimiter=-
+version_position=3
+version_format=yyyyMMdd
